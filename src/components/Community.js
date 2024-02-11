@@ -12,8 +12,7 @@ const Card = ({ imgSrc, title }) => {
       />
       <h2 className="text-xl font-semibold">{title}</h2>
       <p className="leading-loose">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod
-        tempor.
+        {/* Join and Enjoy about this. */}
       </p>
     </div>
   );

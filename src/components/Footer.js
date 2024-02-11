@@ -14,11 +14,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <Link href={"/"} className="text-3xl">
-              <span className="text-rose-600">N</span>aseem.
+              <span className="text-rose-600">New</span>Journey.
             </Link>
             <p className="max-w-xs mt-4 text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-              accusantium.
+              NewJourney is a company that provide translation service.
             </p>
             <div className="flex mt-8 space-x-6">
               <Link
@@ -167,7 +166,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="mt-8 text-xs">© 2022 Naseem Khan - All rights reserved</p>
+        <p className="mt-8 text-xs">© 2024 Tomas Edwen - All rights reserved</p>
       </div>
     </footer>
   );

@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="container px-5 md:px-16 flex items-center justify-between mx-auto">
         <Link href={"/"}>
           <h2 className="text-3xl">
-            <span className="text-rose-600">N</span>aseem.
+            <span className="text-rose-600">New</span>Journey.
           </h2>
         </Link>
 
@@ -60,7 +60,9 @@ const Navbar = () => {
             >
               <CloseOutlinedIcon />
             </button>
-            {["home", "features", "pricing", "testimonial"].map((link) => (
+            {["home", "features", 
+            // "pricing", 
+            "testimonial"].map((link) => (
               <li
                 key={link}
                 className={`${
