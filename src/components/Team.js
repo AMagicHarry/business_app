@@ -48,7 +48,7 @@ const Team = () => {
       <div className="mx-auto grid grid-cols-2 lg:grid-cols-3 gap-y-8 sm:gap-8 mt-16">
         <TeamCard
           imgSrc={"/team/1.png"}
-          name="Saimon Harmer"
+          name="Tomas Edwen"
           title="CEO and Founder"
         />
         <TeamCard imgSrc={"/team/2.png"} name="Aaron Nunez" title="Founder" />

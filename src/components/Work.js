@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const WorkCard = ({ num, title }) => {
+const WorkCard = ({ num, title, description }) => {
   return (
     <div className="w-[90%] sm:w-4/5 mx-auto md:mx-0 md:w-full flex flex-col md:gap-5 gap-3 text-center md:text-left">
       <span className="md:mx-0 mx-auto text-3xl w-fit font-bold text-blue-800 bg-white rounded-full py-4 px-4">
@@ -8,8 +8,7 @@ const WorkCard = ({ num, title }) => {
       </span>
       <h2 className="text-xl font-semibold leading-relaxed">{title}</h2>
       <p className="leading-loose">
-        Get your blood tests delivered at home collect a sample from the your
-        blood tests.
+        {description}
       </p>
     </div>
   );
@@ -30,7 +29,7 @@ const Work = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-5">
           <div className="relative">
-            <WorkCard num="01" title="Set disbursement Instructions" />
+            <WorkCard num="01" title="Initial Analysis and Preparation" description="Review the client's requirements to determine the best approach for the job"/>
             <Image
               src={"/work/arrow.svg"}
               width={210}
@@ -43,7 +42,8 @@ const Work = () => {
           <div className="relative">
             <WorkCard
               num="02"
-              title="Assembly retrieves funds from your account"
+              title="Translation"
+              description="Translators use their language skills and expertise to accurately convey the original text's meaning, tone, and style in the target language"
             />
             <Image
               src={"/work/arrow.svg"}
@@ -54,7 +54,7 @@ const Work = () => {
             />
           </div>
           <div className="relative">
-            <WorkCard num="03" title="Assembly initiates disbursement" />
+            <WorkCard num="03" title="Quality Assurance" description="Conduct a thorough review and quality assurance process to ensure that the final translation is accurate, complete, and error-free"/>
             <Image
               src={"/work/arrow.svg"}
               width={205}
@@ -63,7 +63,7 @@ const Work = () => {
               className="hidden absolute top-2 left-[4.7rem] xl:block"
             />
           </div>
-          <WorkCard num="04" title="Customer receives funds payment" />
+          <WorkCard num="04" title="Delivery and Follow-up" description="Deliver the final files to the client. After that follow up with the client to ensure that the translation meets the client's expectations and quality criteria"/>
         </div>
       </div>
     </section>
