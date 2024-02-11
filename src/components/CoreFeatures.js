@@ -8,15 +8,14 @@ const CoreFeatures = () => {
           CORE FEATURES
         </span>
         <h2 className=" capitalize text-3xl md:text-4xl xl:text-5xl font-bold my-3">
-          Smart Jackpots that you may love this anytime & anywhere
+        Provide accurate and high-quality translation services to clients
         </h2>
         <p className="text-lg leading-loose">
-          Get your tests delivered at let home collect sample from the victory
-          of the managements that supplies best design system guidelines ever.
+        This includes translating written or spoken content from one language to another while maintaining the original tone, style, and intent of the message.
         </p>
-        <button className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-rose-600 hover:border-rose-600 hover:bg-rose-600 hover:shadow-rose-600 hover:shadow-2xl rounded-full">
+        {/* <button className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-rose-600 hover:border-rose-600 hover:bg-rose-600 hover:shadow-rose-600 hover:shadow-2xl rounded-full">
           Explore
-        </button>
+        </button> */}
       </div>
 
       <div className="flex-1 relative w-full">
