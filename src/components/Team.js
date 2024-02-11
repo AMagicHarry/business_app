@@ -8,6 +8,7 @@ const TeamCard = ({ imgSrc, name, title }) => {
   return (
     <div className="relative flex flex-col gap-1 md:hover:shadow-lg rounded-xl md:py-10 team-card md:cursor-pointer">
       <Image
+        style={{ width: 130, height: 130 }}
         src={imgSrc}
         width={130}
         height={130}
@@ -19,7 +20,7 @@ const TeamCard = ({ imgSrc, name, title }) => {
       <div className="flex md:flex-col gap-3 md:absolute md:bottom-12 md:right-8 md:translate-y-10 icons md:transition-all md:duration-500 md:opacity-0 mx-auto md:mx-0 md:text-rose-600">
         <Link
           target="_blank"
-          href="https://www.facebook.com/profile.php?id=100017192357822&sk"
+          href=""
         >
           <FacebookRoundedIcon className="text-xl hover:text-rose-600 cursor-pointer md:hover:text-gray-500" />
         </Link>
