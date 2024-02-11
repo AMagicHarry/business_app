@@ -21,18 +21,18 @@ const Features = () => {
   return (
     <section className="container mx-auto px-5 md:px-16" id="features">
       <span className="service-name text-center">WHATS THE FUNCTION</span>
-      <h2 className="title text-center">Meet the feature of product</h2>
+      <h2 className="title text-center">Meet the feature</h2>
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 md:gap-5 text-center mt-10 md:mt-20">
         <FeatureProduct
           imgSrc="/features/1.svg"
-          title="Fast Performance"
-          desc="Get your blood tests delivered at home collect a sample from the your blood tests."
+          title="General Translation"
+          desc="Get the project from clients related with general puropose"
         />
         <FeatureProduct
           imgSrc="/features/2.svg"
-          title="Partnership deal"
-          desc="Get your blood tests delivered at home collect a sample from the your blood tests."
+          title="Technical Translation"
+          desc="d at home collect a sample from the your blood tests."
         />
         <FeatureProduct
           imgSrc="/features/3.svg"
