@@ -87,7 +87,7 @@ const Navbar = () => {
               >
                 <LinkedInIcon className="cursor-pointer hover:text-rose-600 text-xl" />
               </Link>
-              <Link target="_blank" href={"https://github.com/NaseemKhan005/"}>
+              <Link target="_blank" href={"https://github.com/besthonestman/"}>
                 <GitHubIcon className="cursor-pointer hover:text-rose-600 text-xl" />
               </Link>
               <Link

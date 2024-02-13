@@ -14,12 +14,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <Link href={"/"} className="text-3xl">
-              <span className="text-rose-600">New</span>Journey.
+              {/* <span className="text-rose-600">New</span>Journey. */}
+              <img src="logo.png" style={{maxWidth: 240, maxHeight: 60}}></img>
             </Link>
             <p className="max-w-xs mt-4 text-sm">
               NewJourney is a company that provide translation service.
             </p>
-            <div className="flex mt-8 space-x-6">
+            {/* <div className="flex mt-8 space-x-6">
               <Link
                 href="https://www.facebook.com/profile.php?id=100017192357822&sk"
                 target="_blank"
@@ -44,7 +45,7 @@ const Footer = () => {
               >
                 <InstagramIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
               </Link>
-            </div>
+            </div> */}
           </div>
 
           <div className="grid gap-8 lg:col-span-2 grid-cols-2 md:grid-cols-4">
@@ -166,7 +167,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="mt-8 text-xs">© 2024 Tomas Edwen - All rights reserved</p>
+        <p className="mt-8 text-xs">© 2024 - All rights reserved</p>
       </div>
     </footer>
   );

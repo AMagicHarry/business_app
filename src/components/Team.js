@@ -24,7 +24,7 @@ const TeamCard = ({ imgSrc, name, title }) => {
         >
           <FacebookRoundedIcon className="text-xl hover:text-rose-600 cursor-pointer md:hover:text-gray-500" />
         </Link> */}
-        <Link target="_blank" href="https://github.com/NaseemKhan005">
+        <Link target="_blank" href="https://github.com/besthonestman">
           <GitHubIcon className="text-xl hover:text-rose-600 cursor-pointer md:hover:text-gray-500" />
         </Link>
         <Link
