@@ -18,12 +18,12 @@ const TeamCard = ({ imgSrc, name, title }) => {
       <h2 className="text-base sm:text-xl font-semibold text-center">{name}</h2>
       <p className="text-center sm:text-base text-sm">{title}</p>
       <div className="flex md:flex-col gap-3 md:absolute md:bottom-12 md:right-8 md:translate-y-10 icons md:transition-all md:duration-500 md:opacity-0 mx-auto md:mx-0 md:text-rose-600">
-        <Link
+        {/* <Link
           target="_blank"
           href=""
         >
           <FacebookRoundedIcon className="text-xl hover:text-rose-600 cursor-pointer md:hover:text-gray-500" />
-        </Link>
+        </Link> */}
         <Link target="_blank" href="https://github.com/NaseemKhan005">
           <GitHubIcon className="text-xl hover:text-rose-600 cursor-pointer md:hover:text-gray-500" />
         </Link>
@@ -52,7 +52,7 @@ const Team = () => {
           name="Tomas Edwen"
           title="CEO and Founder"
         />
-        <TeamCard imgSrc={"/team/2.png"} name="Aaron Nunez" title="Founder" />
+        {/* <TeamCard imgSrc={"/team/2.png"} name="Aaron Nunez" title="Founder" />
         <TeamCard
           imgSrc={"/team/3.png"}
           name="Aaron Nunez"
@@ -72,7 +72,7 @@ const Team = () => {
           imgSrc={"/team/6.png"}
           name="Aaron Nunez"
           title="Web Designer"
-        />
+        /> */}
       </div>
     </section>
   );

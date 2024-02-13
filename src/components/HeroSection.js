@@ -13,7 +13,8 @@ const HeroSection = () => {
           <p>translation company</p>
         </h1>
         <p className="text-lg leading-normal sm:leading-loose my-4 md:my-6">
-        NewJourney is a professional translation company providing high-quality translation.We deliver hundreds of translation projects each month in over 120 languages.
+        NewJourney is a professional translation company providing high-quality translation. 
+        {/* We deliver hundreds of translation projects each month in over 120 languages. */}
         </p>
         {/* <button className="md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-rose-600 hover:border-rose-600 hover:bg-transparent hover:text-rose-600 rounded-full">
           <Link href="https://github.com/NaseemKhan005" target="_blank">

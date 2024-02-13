@@ -39,9 +39,10 @@ const Navbar = () => {
     >
       <div className="container px-5 md:px-16 flex items-center justify-between mx-auto">
         <Link href={"/"}>
-          <h2 className="text-3xl">
+          {/* <h2 className="text-3xl">
             <span className="text-rose-600">New</span>Journey.
-          </h2>
+          </h2> */}
+          <img src="logo.png" style={{maxWidth: 240, maxHeight: 60}}></img>
         </Link>
 
         <div>
